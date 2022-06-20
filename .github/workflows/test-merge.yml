@@ -21,6 +21,6 @@ jobs:
           node-version: 16
       - run: npm ci
       - run: npm test
-      - uses: codecov/codecov-action@e3c560433a6cc60aec8812599b7844a7b4fa0d71 # v2
+      - uses: codecov/codecov-action@8e09eaf1b47fbb5da0e32a27bf08cd11929a1b4a # v2
         with:
           directory: ./coverage/
